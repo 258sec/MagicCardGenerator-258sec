@@ -1,1 +1,46 @@
+body{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+
+
+
+.card{
+    background-color: white;
+    width:20rem;
+    height:28rem;
+    border-radius: 8%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*top-symbol*/
+.card-top{
+    
+    align-self: flex-start;
+}
+
+
+.card-center{
+    display:flex;
+    justify-content: center;
+    font-size:10rem
+}
+
+
+/*bottom-symbol*/
+.card-bottom{
+    
+    align-self: flex-end;
+}
+
+/*valores */
+.card-value{
+    font-size: 5rem;
+}
